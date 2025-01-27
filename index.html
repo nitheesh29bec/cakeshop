@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake Shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+
+        header {
+            background-color: #31af66;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .card {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .card h3 {
+            font-size: 1.5rem;
+            margin: 0.5rem 0;
+        }
+
+        .card p {
+            font-size: 1rem;
+            color: #555;
+            margin: 0.5rem 1rem;
+        }
+
+        .card .price {
+            font-size: 1.2rem;
+            color: #007bff;
+            font-weight: bold;
+            margin: 1rem 0;
+        }
+
+        .card .buy-now {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            margin: 1rem 0;
+            background-color: #28a745;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .card .buy-now:hover {
+            background-color: #218838;
+        }
+
+        footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 20px;
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Our Cake Shop</h1>
+</header>
+
+<div class="container">
+    <div class="card">
+        <img src="/Images/cake-1.jpg" alt="Classic Chocolate Cake">
+        <h3>Classic Chocolate Cake</h3>
+        <p>A rich, moist chocolate sponge layered with creamy chocolate ganache, topped with chocolate shavings.</p>
+        <div class="price">₹500</div>
+        <a href="order.html" class="buy-now">Buy Now</a>
+    </div>
+
+    <div class="card">
+        <img src="/Images/vanila.jpg" alt="Vanilla Delight Cake">
+        <h3>Vanilla Delight Cake</h3>
+        <p>A soft vanilla sponge with layers of whipped cream and a touch of fruity essence, decorated with colorful sprinkles.</p>
+        <div class="price">₹450</div>
+        <a href="order.html" class="buy-now">Buy Now</a>
+    </div>
+
+    <div class="card">
+        <img src="/Images/red.jpg" alt="Red Velvet Cake">
+        <h3>Red Velvet Cake</h3>
+        <p>A vibrant red sponge cake with cream cheese frosting, perfect for celebrations and romantic occasions.</p>
+        <div class="price">₹600</div>
+        <a href="order.html" class="buy-now">Buy Now</a>
+    </div>
+
+    <div class="card">
+        <img src="/Images/black forest.jpg" alt="Black Forest Cake">
+        <h3>Black Forest Cake</h3>
+        <p>Layers of chocolate sponge, whipped cream, and cherries, finished with chocolate curls and cherry toppings.</p>
+        <div class="price">₹550</div>
+        <a href="order.html" class="buy-now">Buy Now</a>
+    </div>
+
+    <div class="card">
+        <img src="/Images/straberry.jpg" alt="Strawberry Bliss Cake">
+        <h3>Strawberry Bliss Cake</h3>
+        <p>Fresh strawberry-flavored sponge with strawberry frosting and a luscious strawberry glaze on top.</p>
+        <div class="price">₹500</div>
+        <a href="order.html" class="buy-now">Buy Now</a>
+    </div>
+
+    <div class="card">
+        <img src="/Images/pineapple.jpg" alt="Pineapple Paradise Cake">
+        <h3>Pineapple Paradise Cake</h3>
+        <p>A refreshing pineapple-flavored cake with layers of pineapple cream and real pineapple chunks.</p>
+        <div class="price">₹480</div>
+        <a href="order.html" class="buy-now">Buy Now</a>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2025 Cake Shop. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
